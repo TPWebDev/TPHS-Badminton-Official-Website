@@ -2,21 +2,40 @@
     margin: 0;
 }
 
-#homepage {
-    background-color: black;
-    font-family: "Lexend", "Montserrat";
-}
-
-#rosterpage {
-    background-color: black;
-}
-
-#homebanner {
+/* Website styling */
+.title {
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: "Lexend", "sans-serif";
+    color: white;
 }
 
+#navbar {
+    padding: 10px;
+    background-color: rgb(170, 7, 7)!important;
+    font-family: "Lexend", "sans-serif";
+}
+
+.nav-link {
+    color: black!important;
+}
+
+
+/* Homepage styling */
+#homepage {
+    background-color: black;
+    font-family: "Lexend", "sans-serif";
+}
+
+#about-div {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Social media icons */
 .fa {
     padding: 10px;
     font-size: 20px;
@@ -40,25 +59,19 @@
     color: white;
 }
 
-#donatebutton {
-    background-color:black; 
-    color: white; 
-    font-size: 18px;
-    font-family: "Lexend", "Montserrat";
-    border-color:rgb(170, 7, 7); 
-    border-radius: 10px;
-    border-width: 5px;
-    height: 75; 
-    width: 150;
-}
-
-.blackhome{ 
+#homebanner {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: black;
+}
+
+.blackhome {
+    background-color: black(255, 186, 21);
+    padding: 10px;
     color: white;
-    padding:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
 }
 
 .redhome {
@@ -79,33 +92,44 @@
     align-items: center
 }
 
-.title {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: "Lexend", "Montserrat";
-    color: white;
+#donatebutton {
+    background-color:black; 
+    border: none;
+    color: white; 
+    font-size: 18px;
+    font-family: "Lexend", "sans-serif";
+    border-radius: 10px;
+    border-width: 3px;
+    height: 75; 
+    width: 150;
 }
 
-#navbar {
-    padding: 10px;
-    background-color: rgb(170, 7, 7)!important;
-    font-family: "Lexend", "Montserrat";
+/* Gallery section styling */
+#teamCarousel{
+    width: 33.333%;
+    margin-left: 33.333%;
+    margin-right: 33.333%;
+}
+.gallerycaptions {
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: 10px;
+    border-radius: 10px;
+    background-color: rgb(170, 7, 7);
+    width: 25%;
+    margin-left: 37.5%;
+    text-align: center;
 }
 
-.nav-link {
-    color: black!important;
-}
 
-#about-div {
-    display: flex;
-    flex-direction: row;
+
+/* Roster page styling */
+#rosterpage {
+    background-color: black;
 }
 
 .card {
-    font-family: "Lexend", "Montserrat";
+    font-family: "Lexend", "sans-serif";
     background-color: black;
     color: white;
 }
@@ -135,7 +159,7 @@
     font-size: 20px;
     color: rgb(170, 7, 7);
     border: none;
-    font-family: "Lexend", "Montserrat";
+    font-family: "Lexend", "sans-serif";
 }
 
 #rosterlinebreak {
@@ -148,18 +172,18 @@
     border-radius: 100px;
 }
 
+
+
+/* Contact page styling */
 #contactpage {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#teamCarousel{
-    width: 33.333%;
-    margin-left: 33.333%;
-    margin-right: 33.333%;
-}
 
+
+/* Schedule page styling */
 #calendarbody {
     background-color:rgb(255, 186, 21);
 
@@ -173,20 +197,9 @@
 }
 
 #importantdates {
-    font-family: "Lexend";
+    font-family: "Lexend", "sans-serif";
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 20px;
-}
-
-.gallerycaptions {
-    color: whitesmoke;
-    font-size: 15px;
-    font-weight: 10px;
-    border-radius: 10px;
-    background-color: black;
-    width: 25%;
-    margin-left: 37.5%;
-    text-align: center;
 }

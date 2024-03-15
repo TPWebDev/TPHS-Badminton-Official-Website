@@ -141,10 +141,9 @@
     background-color: black;
 }
 
-.card {
-    font-family: "Lexend", "sans-serif";
-    background-color: black;
-    color: white;
+.card-img-top {
+    height: 280px; /* Adjust as needed */
+    object-fit: cover; /* This will ensure the image covers the entire space without stretching */
 }
 
 .row {

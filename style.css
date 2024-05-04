@@ -182,6 +182,16 @@
     opacity: 1!important;
 }
 
+/* Gallery page styling */
+#gallerypage {
+    background-color: rgb(255, 186, 21);
+    padding-bottom: 5px;
+}
+
+.col-12 {
+    padding-bottom: 20px;
+}
+
 
 
 /* Contact page styling */
@@ -190,7 +200,6 @@
     flex-direction: column;
     align-items: center;
 }
-
 
 
 /* Schedule page styling */

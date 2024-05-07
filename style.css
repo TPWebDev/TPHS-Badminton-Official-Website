@@ -20,7 +20,9 @@
 }
 
 .nav-link {
-    color: black!important;
+    color: white!important;
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
 }
 
 

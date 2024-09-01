@@ -25,6 +25,25 @@
     text-underline-offset: 0.5em;
 }
 
+/* Image styling */
+.img-small {
+    max-width: 100%;
+    max-height: 270px;
+    object-fit: cover;
+}
+
+.img-medium {
+    max-width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.img-large {
+    max-width: 100%;
+    max-height: 700px;
+    object-fit: cover;
+}
+
 
 /* Homepage styling */
 #homepage {
@@ -92,6 +111,7 @@
     align-items: center;
 }
 
+/* Homepage backgrounds */
 .blackhome {
     background-color: black(255, 186, 21);
     padding: 10px;

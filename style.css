@@ -226,17 +226,29 @@
 
 /* Schedule page styling */
 #calendarbody {
-    background-color:rgb(255, 186, 21);
+    background-color: rgb(255, 186, 21);
+    margin: 0;
+    padding: 0;
+    font-family: "Lexend", "sans-serif"; /* Ensure consistent font */
+}
 
+#calendar-container {
+    width: 70%;   /* Adjust the width for responsiveness */
+    height: 60vh; /* Adjust the height as needed */
+    margin: 0 auto;  /* Center the container horizontally */
+    display: flex;
+    justify-content: center;  /* Center iframe horizontally */
+    align-items: center;      /* Center iframe vertically */
+    padding: 25px;
 }
 
 #calendar {
-    width: 50%;
-    padding: 20px;
-    margin-left: 25%;
-    margin-right: 25%;
+    width: 100%;  /* Make the iframe fill its container */
+    height: 100%; /* Ensure the iframe takes full height */
+    border: none;
 }
 
+/* Styling for important dates, tournaments, etc. (unchanged) */
 #importantdates {
     padding-top: 15px;
     border: 2px solid black;

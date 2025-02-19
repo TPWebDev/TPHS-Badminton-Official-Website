@@ -187,6 +187,13 @@
     justify-content: center;
 }
 
+#practice-list {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .list-group-item {
     background-color: black;
     font-size: 20px;

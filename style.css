@@ -269,7 +269,12 @@
 }
 
 #leagueevents {
-    flex-direction: row;
+    display: flex; /* Enable Flexbox */
+    flex-direction: row; /* Align items in a row */
+    justify-content: space-around; /* Add spacing between items */
+    align-items: center; /* Vertically align items */
+    text-align: center; /* Center-align text inside each child */
+    gap: 0px;
 }
 
 #tournaments {

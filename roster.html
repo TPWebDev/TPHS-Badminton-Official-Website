@@ -1,155 +1,421 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TPHS Badminton - Roster</title>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend&family=Montserrat:wght@500&family=Oswald&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TPHS Badminton - Roster</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend&family=Montserrat:wght@500&family=Oswald&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body id="rosterpage">
-    <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="width: 100%; justify-content: space-evenly; font-size: 20px;">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="schedule.html">Schedule</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="roster.html">Roster</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Gallery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
+  <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0"
+          style="width: 100%; justify-content: space-evenly; font-size: 20px;">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="schedule.html">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="roster.html">Roster</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container py-5">
+    <!-- Page Header -->
+    <div class="text-center mb-5">
+      <h1 class="display-4 fw-bold text-white">Team Roster</h1>
+      <p class="text-white">Meet the 2025 Torrey Pines Badminton Team</p>
+    </div>
+
+    <!-- Staff Section -->
+    <div class="mb-5">
+      <h2 class="title text-center mb-4">Coaching Staff</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100 shadow-sm border-0 transition-card">
+            <div class="card-img-top-wrapper text-center pt-4 bg-light">
+              <img class="rounded-circle shadow" src="images/Headshot_PlaceHolder.png" alt="Guangying Zhang"
+                style="width: 150px; height: 150px; object-fit: cover;">
+            </div>
+            <div class="card-body text-center">
+              <h4 class="card-title">Guangying Zhang</h4>
+              <h6 class="card-subtitle mb-3 text-muted">Head Coach</h6>
+              <p class="card-text">Guangying Zhang has practiced and played badminton for over 18 years. He strives to
+                instill proper work ethic among team members and ensure a positive experience for everyone on the team,
+                whether they be beginners or advanced players.</p>
+              <p class="text-muted"><i class="fas fa-envelope me-1"></i> <span
+                  style="color: rgb(170, 7, 7);">lightheshadow@gmail.com</span></p>
+            </div>
           </div>
         </div>
-    </nav>
 
-    <h1 class="title">Staff</h1>
-    <div class="row" style="padding-left: 100px; padding-right: 100px;">
-        <div class="card" style="width: 22rem;">
-            <img class="card-img-top" src="images/Headshot_PlaceHolder.png" alt="Card image cap" style="padding-top: 10px;">
-            <div class="card-body">
-              <h5 class="card-title" style="text-align: center;">Guangying Zhang</h5>
-              <h6 style="text-align: center;">Head Coach</h6>
-              <p class="card-text">Guangying Zhang has practiced and played badminton for over 18 years. He strives to instill proper work ethic among team members and ensure a positive experience for everyone on the team, whether they be beginners are advanced players.</p>
-              <p style="color: rgb(170, 7, 7);">Contact: lightheshadow@gmail.com</p>
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100 shadow-sm border-0 transition-card">
+            <div class="card-img-top-wrapper text-center pt-4 bg-light">
+              <img class="rounded-circle shadow" src="images/John_Lin-headshot.png" alt="John Lin"
+                style="width: 150px; height: 150px; object-fit: cover;">
+            </div>
+            <div class="card-body text-center">
+              <h4 class="card-title">John Lin</h4>
+              <h6 class="card-subtitle mb-3 text-muted">Assistant Coach</h6>
+              <p class="card-text">John Lin has practiced and played badminton nearly 20 years. He developed an iWatch
+                app named MySmash, used for measuring arm movement speed and acceleration for badminton players.</p>
+              <p class="text-muted"><i class="fas fa-envelope me-1"></i> <span
+                  style="color: rgb(170, 7, 7);">memaidepro@gmail.com</span></p>
             </div>
           </div>
+        </div>
 
-          <div class="card" style="width: 22rem;">
-            <img class="card-img-top" src="images/John_Lin-headshot.png" alt="Card image cap" style="padding-top: 10px;">
-            <div class="card-body">
-              <h5 class="card-title" style="text-align: center;">John Lin</h5>
-              <h6 style="text-align: center;">Assistant Coach</h6>
-              <p class="card-text">John Lin has practiced and played badminton nearly 20 years. As a coach and parent of former TPHS alumni, John strives to teach students proper badminton skills. His passion for badminton has extended to other fields, such as when he personally developed an iWatch app named MySmash, used for measuring arm movement speed (such as pronation and supination) and acceleration.</p>
-              <p style="color: rgb(170, 7, 7);">Contact: memaidepro@gmail.com</p>
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100 shadow-sm border-0 transition-card">
+            <div class="card-img-top-wrapper text-center pt-4 bg-light">
+              <img class="rounded-circle shadow" src="images/Doreen_Hom-Nov2022.jpg" alt="Doreen Hom"
+                style="width: 150px; height: 150px; object-fit: cover;">
+            </div>
+            <div class="card-body text-center">
+              <h4 class="card-title">Doreen Hom</h4>
+              <h6 class="card-subtitle mb-3 text-muted">Parent Liaison</h6>
+              <p class="card-text">Doreen Hom is Torrey Pines Badminton's team liaison. She is in charge of the team's
+                finances and does everything necessary to ensure the success of the team.</p>
+              <p class="text-muted"><i class="fas fa-envelope me-1"></i> <span
+                  style="color: rgb(170, 7, 7);">badminton@tphsfoundation.org</span></p>
             </div>
           </div>
-
-          <div class="card" style="width: 22rem;">
-            <img class="card-img-top" src="images/Doreen_Hom-Nov2022.jpg" alt="Card image cap"
-            style="padding-top: 10px;">
-            <div class="card-body">
-              <h5 class="card-title" style="text-align: center;">Doreen Hom</h5>
-              <h6 style="text-align: center;">Parent Liaison</h6>
-              <p class="card-text">Doreen Hom is Torrey Pines Badminton's team liaison. She is in charge of the team’s finances and does everything necessary to ensure the success of the team. She lettered in badminton at San Diego High School then played the sport recreationally at University of California, San Diego.</p>
-              <p style="color: rgb(170, 7, 7);">Contact: badminton@tphsfoundation.org</p>
-            </div>
-          </div>
+        </div>
       </div>
-    
-    <br>
-      
-    <hr id="rosterlinebreak">
+    </div>
 
-    <h1 class="title">Athletes</h1>
-    <h3 class="title" style="text-align: left">Varsity</h3>
-    <div id="varsitylist">
-      <ul class="list-group">
-        <li class="list-group-item">Jason Xu</li>
-        <li class="list-group-item">Ricky Xu</li>
-        <li class="list-group-item">Ethan Jin</li>
-        <li class="list-group-item">Kaden Ly</li>
-        <li class="list-group-item">Gary Ying</li>
-        <li class="list-group-item">Hao Wang</li>
+    <!-- Athletes Section -->
+    <div class="mt-5">
+      <h2 class="title text-center mb-3">Athletes</h2>
+
+      <!-- Teams tabs navigation -->
+      <ul class="nav nav-pills mb-3 justify-content-center" id="teamTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="varsity-tab" data-bs-toggle="pill" data-bs-target="#varsity" type="button"
+            role="tab" aria-controls="varsity" aria-selected="true">Varsity</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="jv-tab" data-bs-toggle="pill" data-bs-target="#jv" type="button" role="tab"
+            aria-controls="jv" aria-selected="false">Junior Varsity</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="practice-tab" data-bs-toggle="pill" data-bs-target="#practice" type="button"
+            role="tab" aria-controls="practice" aria-selected="false">Practice Squad</button>
+        </li>
       </ul>
-      <ul class="list-group">
-        <li class="list-group-item">Andy Ryu</li>
-        <li class="list-group-item">Andy Xie</li>
-        <li class="list-group-item">Cassandra Love</li>
-        <li class="list-group-item">Lingxi Kong</li>
-        <li class="list-group-item">Shiran Wang</li>
-      </ul>
-      <ul class="list-group">
-        <li class="list-group-item">Celestine Chinnappan</li>
-        <li class="list-group-item">Esther Song</li>
-        <li class="list-group-item">Grace Liu</li>
-        <li class="list-group-item">Chloe Hu</li>
-        <li class="list-group-item">Kathy Xu</li>
-      </ul>
+      <!-- Teams tab content -->
+      <div class="tab-content" id="teamTabsContent">
+        <!-- Varsity Team -->
+        <div class="tab-pane fade show active" id="varsity" role="tabpanel" aria-labelledby="varsity-tab">
+          <div class="card shadow-sm border-0">
+            <div class="card-header bg-danger text-white">
+              <h4 class="mb-0">Varsity Team</h4>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="list-group list-group-flush">
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-danger me-3"></i>
+                      <span>Jason Xu</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-danger me-3"></i>
+                      <span>Ricky Xu</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-danger me-3"></i>
+                      <span>Ethan Jin</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-danger me-3"></i>
+                      <span>Kaden Ly</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-danger me-3"></i>
+                      <span>Gary Ying</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-danger me-3"></i>
+                      <span>Hao Wang</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="list-group list-group-flush">
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-danger me-3"></i>
+                      <span>Andy Ryu</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-danger me-3"></i>
+                      <span>Andy Xie</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-danger me-3"></i>
+                      <span>Cassandra Love</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-danger me-3"></i>
+                      <span>Lingxi Kong</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-danger me-3"></i>
+                      <span>Shiran Wang</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="list-group list-group-flush">
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-danger me-3"></i>
+                      <span>Celestine Chinnappan</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-danger me-3"></i>
+                      <span>Esther Song</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-danger me-3"></i>
+                      <span>Grace Liu</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-danger me-3"></i>
+                      <span>Chloe Hu</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-danger me-3"></i>
+                      <span>Kathy Xu</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Junior Varsity Tab -->
+        <div class="tab-pane fade" id="jv" role="tabpanel" aria-labelledby="jv-tab">
+          <!-- Content similar to varsity but with JV players -->
+          <div class="card shadow-sm border-0">
+            <div class="card-header bg-dark text-white">
+              <h4 class="mb-0">Junior Varsity Team</h4>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="list-group list-group-flush">
+                    <!-- Repeat for JV players -->
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-dark me-3"></i>
+                      <span>Ivan Lee</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-dark me-3"></i>
+                      <span>Andrew Chen</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-dark me-3"></i>
+                      <span>Aadarsh Tyagi</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-dark me-3"></i>
+                      <span>Wesley Wong</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-dark me-3"></i>
+                      <span>Jeremy Li</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="list-group list-group-flush">
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-dark me-3"></i>
+                      <span>Richard Chen</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-dark me-3"></i>
+                      <span>William Cheng</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-dark me-3"></i>
+                      <span>Angela Fu</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-dark me-3"></i>
+                      <span>Ayla Tang</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-dark me-3"></i>
+                      <span>Amelia Brown</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="list-group list-group-flush">
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-dark me-3"></i>
+                      <span>Bokyoung Kim</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-dark me-3"></i>
+                      <span>Zhuo Diao</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-dark me-3"></i>
+                      <span>Alina Cheng</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-dark me-3"></i>
+                      <span>Lasya Vajrala</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Practice Squad Tab -->
+        <div class="tab-pane fade" id="practice" role="tabpanel" aria-labelledby="practice-tab">
+          <!-- Content similar to varsity but with practice squad players -->
+          <div class="card shadow-sm border-0">
+            <div class="card-header bg-secondary text-white">
+              <h4 class="mb-0">Practice Squad</h4>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="list-group list-group-flush">
+                    <!-- Repeat for practice squad players -->
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-secondary me-3"></i>
+                      <span>Eric Liu</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-secondary me-3"></i>
+                      <span>Emmanuel Zhang</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-secondary me-3"></i>
+                      <span>Daniel Wang</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-secondary me-3"></i>
+                      <span>Steven Zhu</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="list-group list-group-flush">
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-secondary me-3"></i>
+                      <span>Arthur Chang</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-secondary me-3"></i>
+                      <span>Chenyi Lu</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-secondary me-3"></i>
+                      <span>Yesung Ju</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-secondary me-3"></i>
+                      <span>Sangjun Han</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="list-group list-group-flush">
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-secondary me-3"></i>
+                      <span>Benjamin Goldberg</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-secondary me-3"></i>
+                      <span>Sawako Ogino</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-secondary me-3"></i>
+                      <span>Miu Saito</span>
+                    </div>
+                    <div class="list-group-item bg-white d-flex align-items-center">
+                      <i class="fas fa-user-circle text-secondary me-3"></i>
+                      <span>Phoebe Feng</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <br>
-    <h3 class="title">Junior Varsity</h3>
-    <div id="jvlist">
-        <ul class="list-group">
-            <li class="list-group-item">Ivan Lee</li>
-            <li class="list-group-item">Andrew Chen</li>
-            <li class="list-group-item">Aadarsh Tyagi</li>
-            <li class="list-group-item">Wesley Wong</li>
-            <li class="list-group-item">Jeremy Li</li>
-        </ul>
-        <ul class="list-group">
-            <li class="list-group-item">Richard Chen</li>
-            <li class="list-group-item">William Cheng</li>
-            <li class="list-group-item">Angela Fu</li>
-            <li class="list-group-item">Ayla Tang</li>
-            <li class="list-group-item">Amelia Brown</li>
-          </ul>
-        <ul class="list-group">
-            <li class="list-group-item">Bokyoung Kim</li>
-            <li class="list-group-item">Zhuo Diao</li>
-            <li class="list-group-item">Alina Cheng</li>
-            <li class="list-group-item">Lasya Vajrala</li>
-        </ul>
-    </div>
-    <br>
-    <h3 class="title">Practice Squad</h3>
-    <div id="practice-list">
-      <ul class="list-group">
-          <li class="list-group-item">Eric Liu</li>
-          <li class="list-group-item">Emmanuel Zhang</li>
-          <li class="list-group-item">Daniel Wang</li>
-          <li class="list-group-item">Steven Zhu</li>
-      </ul>
-      <ul class="list-group">
-          <li class="list-group-item">Arthur Chang</li>
-          <li class="list-group-item">Chenyi Lu</li>
-          <li class="list-group-item">Yesung Ju</li>
-          <li class="list-group-item">Sangjun Han</li>
-        </ul>
-      <ul class="list-group">
-          <li class="list-group-item">Benjamin Goldberg</li>
-          <li class="list-group-item">Sawako Ogino</li>
-          <li class="list-group-item">Miu Saito</li>
-          <li class="list-group-item">Phoebe Feng</li>
-      </ul>
   </div>
-  <br>
-  <br>
+
+  <footer class="py-3 bg-dark text-white text-center">
+    <p class="mb-0">Copyright © 2025 Torrey Pines High School Badminton - All Rights Reserved.</p>
+  </footer>
+
+  <style>
+    /* Add to your style.css file */
+    .transition-card {
+      transition: transform 0.3s ease;
+    }
+
+    .transition-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card-img-top-wrapper {
+      border-radius: 6px 6px 0 0;
+    }
+
+    .nav-pills .nav-link {
+      color: #212529;
+      background-color: #f8f9fa;
+      margin: 0 5px;
+    }
+
+    .nav-pills .nav-link.active {
+      background-color: #dc3545;
+      color: white;
+    }
+
+    .tab-content {
+      padding-top: 20px;
+    }
+  </style>
 </body>
+
 </html>

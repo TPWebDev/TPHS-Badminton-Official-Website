@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Ethan Jin">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Official website of Torrey Pines High School Badminton. Stay updated with our latest news, schedule, and more.">
+    <meta name="description"
+        content="Official website of Torrey Pines High School Badminton. Stay updated with our latest news, schedule, and more.">
     <title>TPHS Badminton</title>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend&family=Montserrat:wght@500&family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&family=Montserrat:wght@500&family=Oswald&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
@@ -16,11 +19,14 @@
 <body id="homepage">
     <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="width: 100%; justify-content: space-evenly; font-size: 20px;">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0"
+                    style="width: 100%; justify-content: space-evenly; font-size: 20px;">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
@@ -41,36 +47,77 @@
         </div>
     </nav>
 
-    <section class="blackhome" id="homebanner">
-        <h1 class="title">Torrey Pines High School Badminton</h1>
-        <img src="images/TP-Badminton-Cover.jpg" alt="Badminton Cover Image" class="img-fluid">
-        <h2>Welcome to the official TPHS Badminton Website!</h2>
-    </section>
-
-    <section class="yellowhome">
-        <h2 class="title" style="color: black;">About Us</h2>
-        <div id="about-div" class="d-flex flex-wrap">
-            <img src="images/About-Section-Cover-2021-scaled-e1647246099241.jpg" alt="About Us Image 1" class="img-small">
-            <p class="text-justify" style="font-size: 16px; width: 400px; padding: 45px;">
-                We're one of the newest CIF teams at Torrey Pines High School, formed in 2015. We play in the Northern League with other San Diego City Conference and North County Conference schools, and just recently we were declared the undefeated league champions in the 2021 season!
-            </p>
-            <img src="images/ricky-tournament.jpg" alt="About Us Image 2" class="img-small">
+    <section class="blackhome hero-section" id="homebanner">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="title display-4 fw-bold">Torrey Pines High School Badminton</h1>
+                    <h2 class="subtitle mt-3 mb-4">Building champions since 2015</h2>
+                    <a href="schedule.html" class="btn btn-primary btn-lg"
+                        style="background-color: rgb(170, 7, 7); border-color: red;">View Schedule</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/TP-Badminton-Cover.jpg" alt="Badminton Cover Image"
+                        class="img-fluid rounded shadow">
+                </div>
+            </div>
         </div>
     </section>
 
-    <section class="redhome">
-        <h2 class="title">News</h2>
-        <p style="font-size: 20px; padding: 10px;">UPDATE: the Stay Classy Tournament, a yearly singles tournament held at Mira Mesa High School, will now be split into two times due to space constraints.</p>
-        <p style="font-size: 20px; padding: 10px;">Freshmen and sophomores play on March 28th and March 29th; juniors and seniors will play on April 18th and April 19th.</p>
+    <section class="yellowhome py-3">
+        <div class="container">
+            <h2 class="title text-center mb-3" style="color: black;">About Us</h2>
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <img src="images/About-Section-Cover-2021-scaled-e1647246099241.jpg" alt="About Us Image 1"
+                        class="img-fluid rounded shadow-sm mb-2">
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 bg-transparent">
+                        <div class="card-body">
+                            <p class="card-text">We're one of the newest CIF teams at Torrey Pines High School, formed
+                                in 2015. We play in the Northern League with other San Diego City Conference and North
+                                County Conference schools, and just recently we were declared the undefeated league
+                                champions in the 2021 season!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/ricky-tournament.jpg" alt="About Us Image 2"
+                        class="img-fluid rounded shadow-sm mb-2">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="redhome py-4">
+        <div class="container">
+            <h2 class="title text-center mb-3">Latest News</h2>
+            <div class="card shadow border-0 mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Stay Classy Tournament Update</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Schedule Change</h6>
+                    <p class="card-text">The Stay Classy Tournament, a yearly singles tournament held at Mira Mesa High
+                        School, will now be split into two times due to space constraints.</p>
+                    <p class="card-text">Freshmen and sophomores play on March 28th and March 29th; juniors and seniors
+                        will play on April 18th and April 19th.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="blackhome">
         <h2 class="title">Join!</h2>
         <p>We're always looking for new teammates! Feel free to join us in the 2025 season by:</p>
         <ol>
-            <li>Getting cleared via the <a href="https://sites.google.com/sduhsd.net/tpathletics/athletic-packet?authuser=0" target="_blank" style="color: rgb(170, 7, 7);">Athletic Clearance Form</a></li>
-            <li>Filling out the <a href="https://docs.google.com/forms/d/1j-vXHO-86rGOEzjlOjOuN2YWhUSaVwJlfhNl3XzO6m0/viewform?pli=1&edit_requested=true" target="_blank" style="color: rgb(170, 7, 7);">Signup Form</a></li>
-            <li>Joining the <a href="https://www.benchapp.com/join/team/DCE963" target="_blank" style="color: rgb(170, 7, 7);">BenchApp Group</a></li>
+            <li>Getting cleared via the <a
+                    href="https://sites.google.com/sduhsd.net/tpathletics/athletic-packet?authuser=0" target="_blank"
+                    style="color: rgb(170, 7, 7);">Athletic Clearance Form</a></li>
+            <li>Filling out the <a
+                    href="https://docs.google.com/forms/d/1j-vXHO-86rGOEzjlOjOuN2YWhUSaVwJlfhNl3XzO6m0/viewform?pli=1&edit_requested=true"
+                    target="_blank" style="color: rgb(170, 7, 7);">Signup Form</a></li>
+            <li>Joining the <a href="https://www.benchapp.com/join/team/DCE963" target="_blank"
+                    style="color: rgb(170, 7, 7);">BenchApp Group</a></li>
         </ol>
         <h2 class="title">Socials</h2>
         <p>
@@ -79,24 +126,44 @@
         </p>
     </section>
 
-    <section class="yellowhome">
-        <h2 class="title" style="color: black;">Donate</h2>
-        <div id="donate-div" class="d-flex flex-wrap">
-            <div id="donate-info" class="text-center">
-                <p style="width: 450px;">We always appreciate donations for supporting our coaches and teammates, as our team relies on outside donations to cover the budget needs. Please use the button to donate. Thank you!</p>
-                <a href="https://web.charityengine.net/tpbadmintondonate" target="_blank" title="Team donation link">
-                    <button id="donatebutton" class="btn btn-primary">DONATE HERE</button>
-                </a>
-                <img src="images/Badminton Donations QR CE.jpg" style="width: 200px; height: auto;" alt="QR Code for donations" class="d-block mx-auto mt-3">
+    <section class="yellowhome py-3">
+        <div class="container">
+            <h2 class="title text-center mb-3" style="color: black;">Support Our Team</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="card shadow border-0">
+                        <div class="card-body text-center p-4">
+                            <h3 class="card-title">Make a Difference</h3>
+                            <p class="card-text mb-4">We always appreciate donations for supporting our coaches and
+                                teammates, as our team relies on outside donations to cover the budget needs.</p>
+                            <div class="mb-4">
+                                <a href="https://web.charityengine.net/tpbadmintondonate" target="_blank"
+                                    title="Team donation link">
+                                    <button id="donatebutton" class="btn btn-danger btn-lg">DONATE HERE</button>
+                                </a>
+                            </div>
+                            <div class="qr-container">
+                                <p class="text-muted small mb-2">Scan to donate</p>
+                                <img src="images/Badminton Donations QR CE.jpg" style="width: 150px; height: auto;"
+                                    alt="QR Code for donations" class="img-thumbnail mx-auto">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/Donate-Section-Cover-2019-scaled.jpg" alt="Donate Image"
+                        class="img-fluid rounded shadow">
+                </div>
             </div>
-            <img src="images/Donate-Section-Cover-2019-scaled.jpg" alt="Donate Image" class="img-medium">
         </div>
     </section>
 
     <footer class="text-center py-3">
-        <p style="margin-bottom: 10px; margin-top: 10px; color: white;">Copyright © 2025 Torrey Pines High School Badminton - All Rights Reserved.</p>
+        <p style="margin-bottom: 10px; margin-top: 10px; color: white;">Copyright © 2025 Torrey Pines High School
+            Badminton - All Rights Reserved.</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>TPHS Badminton - Gallery</title>
-        <link href="https://fonts.googleapis.com/css2?family=Lexend&family=Montserrat:wght@500&family=Oswald&display=swap" rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-    </head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPHS Badminton - Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&family=Montserrat:wght@500&family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body id="gallerypage">
     <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -21,7 +21,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="width: 100%; justify-content: space-evenly; font-size: 20px;">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="schedule.html">Schedule</a>
@@ -30,7 +30,7 @@
                 <a class="nav-link" href="roster.html">Roster</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Gallery</a>
+                <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
@@ -40,142 +40,282 @@
         </div>
     </nav>
 
-    <div>
-        <h1 class="title" style="text-align: center; color: black;">Gallery</h1>
-        <div class="row">
-            <div class="col-12">
-                <div class="title" style="color: black; font-size: 25px;">Team Photos</div>
-                <div style="max-width: 800px; margin: auto;">
-                    <div id="teamCarousel1" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="images/team-photos/TP-Badminton-2015-scaled.jpg" class="d-block w-100" alt="2015">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <p class="gallerycaptions"><b>2015</b></p>
-                                    <p class="gallerycaptions">Founding year!</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/team-photos/TP-Badminton-2016-scaled.jpg" class="d-block w-100" alt="2016">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <p class="gallerycaptions"><b>2016</b></p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/team-photos/TP-Badminton-2017-scaled.jpg" class="d-block w-100" alt="2017">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <p class="gallerycaptions"><b>2017</b></p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/team-photos/TP-Badminton-2019-scaled.jpg" class="d-block w-100" alt="2019">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <p class="gallerycaptions"><b>2019</b></p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/team-photos/Bus-2022-scaled.jpg" class="d-block w-100" alt="2022">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <p class="gallerycaptions"><b>2022</b></p>
-                                    <p class="gallerycaptions" style="width: 40%; margin-left:30%;">First year with the bus!</p>
-                                </div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#teamCarousel1" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#teamCarousel1" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-            </div>
-            </div>
-    
-            <div class="col-12">
-                <div class="title" style="color: black; font-size: 25px;">Stay Classy Tournament</div>
-                <!-- Second carousel goes here -->
-                <div style="max-width: 800px; margin: auto;">
-                <div id="teamCarousel2" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="images/tournament-photos/stay-classy-winners.jpeg" class="d-block w-100" alt="2019">
-                            <div class="carousel-caption d-none d-md-block">
-                                <p class="gallerycaptions"><b>2019 Stay Classy!</b></p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="images/tournament-photos/jason-solo.jpg" class="d-block w-100" alt="jason">
-                            <div class="carousel-caption d-none d-md-block w-auto text-center" style="left: 0; right: 0;">
-                                <p class="gallerycaptions" style="width: 30%;"><b>Jason Xu - 2024 Junior MS Finalist!</b></p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="images/tournament-photos/amy-ricky-jason-trio.jpg" class="d-block w-100" alt="tournament">
-                            <div class="carousel-caption d-none d-md-block w-auto text-center" style="left: 0; right: 0;">
-                                <p class="gallerycaptions" style="width: 30%;"><b>Amy, Ricky, and Jason</b></p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="images/tournament-photos/stay-classy-2024-torrey+cca.jpg" class="d-block w-100" alt="tournament">
-                            <div class="carousel-caption d-none d-md-block w-auto text-center" style="left: 0; right: 0;">
-                                <p class="gallerycaptions"><b>Torrey Pines x CCA</b></p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="images/tournament-photos/ricky-action-shot1.jpg" class="d-block w-100" alt="tournament">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="images/tournament-photos/ricky-action-shot2.jpg" class="d-block w-100" alt="tournament">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#teamCarousel2" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#teamCarousel2" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-            </div>
-            
-            <div class="col-12">
-                <div class="title" style="color: black; font-size: 25px;">Northern League Finals (2024)</div>
-                <div style="max-width: 800px; margin: auto;">
-                    <div id="teamCarousel3" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="images/northern-league-2024/C544F148-C3AD-44BD-BE83-7D43287A655C.JPG" class="d-block w-100" alt="northern-1">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/northern-league-2024/326B69B0-5C32-4B7B-9F3D-94EEDE33C343.JPG" class="d-block w-100" alt="northern-2">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/northern-league-2024/7B6D51BD-8F96-43DC-81C2-89B97F5A8EC7.JPG" class="d-block w-100" alt="northern-2">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#teamCarousel3" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#teamCarousel3" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            
+    <div class="container py-5">
+        <h1 class="title text-center mb-5" style="color: black">TPHS Badminton Gallery</h1>
         
+        <!-- Gallery Navigation -->
+        <ul class="nav nav-pills mb-4 justify-content-center" id="galleryTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="team-photos-tab" data-bs-toggle="pill" data-bs-target="#team-photos" type="button" role="tab">Team Photos</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="stay-classy-tab" data-bs-toggle="pill" data-bs-target="#stay-classy" type="button" role="tab">Stay Classy Tournament</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="northern-league-tab" data-bs-toggle="pill" data-bs-target="#northern-league" type="button" role="tab">Northern League Finals</button>
+            </li>
+        </ul>
+        
+        <!-- Gallery Content -->
+        <div class="tab-content" id="galleryTabsContent">
+            <!-- Team Photos Tab -->
+            <div class="tab-pane fade show active" id="team-photos" role="tabpanel">
+                <div class="gallery-section mb-5">
+                    <h3 class="section-title mb-4"><i class="fas fa-users me-2 text-danger"></i>Team Photos Through the Years</h3>
+                    <div class="carousel-wrapper">
+                        <div id="teamCarousel1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <!-- Carousel Indicators -->
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#teamCarousel1" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#teamCarousel1" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#teamCarousel1" data-bs-slide-to="2"></button>
+                                <button type="button" data-bs-target="#teamCarousel1" data-bs-slide-to="3"></button>
+                                <button type="button" data-bs-target="#teamCarousel1" data-bs-slide-to="4"></button>
+                            </div>
+                            
+                            <div class="carousel-inner rounded shadow">
+                                <div class="carousel-item active">
+                                    <img src="images/team-photos/TP-Badminton-2015-scaled.jpg" class="d-block w-100" alt="2015">
+                                    <div class="carousel-caption">
+                                        <h5>2015</h5>
+                                        <p>Founding year!</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/team-photos/TP-Badminton-2016-scaled.jpg" class="d-block w-100" alt="2016">
+                                    <div class="carousel-caption">
+                                        <h5>2016</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/team-photos/TP-Badminton-2017-scaled.jpg" class="d-block w-100" alt="2017">
+                                    <div class="carousel-caption">
+                                        <h5>2017</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/team-photos/TP-Badminton-2019-scaled.jpg" class="d-block w-100" alt="2019">
+                                    <div class="carousel-caption">
+                                        <h5>2019</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/team-photos/Bus-2022-scaled.jpg" class="d-block w-100" alt="2022">
+                                    <div class="carousel-caption">
+                                        <h5>2022</h5>
+                                        <p>First year with the bus!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#teamCarousel1" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#teamCarousel1" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Stay Classy Tab -->
+            <div class="tab-pane fade" id="stay-classy" role="tabpanel">
+                <div class="gallery-section mb-5">
+                    <h3 class="section-title mb-4"><i class="fas fa-trophy me-2 text-danger"></i>Stay Classy Tournament</h3>
+                    <div class="carousel-wrapper">
+                        <div id="teamCarousel2" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <!-- Carousel Indicators -->
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#teamCarousel2" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#teamCarousel2" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#teamCarousel2" data-bs-slide-to="2"></button>
+                                <button type="button" data-bs-target="#teamCarousel2" data-bs-slide-to="3"></button>
+                                <button type="button" data-bs-target="#teamCarousel2" data-bs-slide-to="4"></button>
+                                <button type="button" data-bs-target="#teamCarousel2" data-bs-slide-to="5"></button>
+                            </div>
+                            
+                            <div class="carousel-inner rounded shadow">
+                                <div class="carousel-item active">
+                                    <img src="images/tournament-photos/stay-classy-winners.jpeg" class="d-block w-100" alt="2019">
+                                    <div class="carousel-caption">
+                                        <h5>2019 Stay Classy!</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/tournament-photos/jason-solo.jpg" class="d-block w-100" alt="jason">
+                                    <div class="carousel-caption">
+                                        <h5>Jason Xu - 2024 Junior MS Finalist!</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/tournament-photos/amy-ricky-jason-trio.jpg" class="d-block w-100" alt="tournament">
+                                    <div class="carousel-caption">
+                                        <h5>Amy, Ricky, and Jason</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/tournament-photos/stay-classy-2024-torrey+cca.jpg" class="d-block w-100" alt="tournament">
+                                    <div class="carousel-caption">
+                                        <h5>Torrey Pines x CCA</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/tournament-photos/ricky-action-shot1.jpg" class="d-block w-100" alt="tournament">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/tournament-photos/ricky-action-shot2.jpg" class="d-block w-100" alt="tournament">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#teamCarousel2" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#teamCarousel2" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Northern League Tab -->
+            <div class="tab-pane fade" id="northern-league" role="tabpanel">
+                <div class="gallery-section mb-5">
+                    <h3 class="section-title mb-4"><i class="fas fa-medal me-2 text-danger"></i>Northern League Finals (2024)</h3>
+                    <div class="carousel-wrapper">
+                        <div id="teamCarousel3" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <!-- Carousel Indicators -->
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#teamCarousel3" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#teamCarousel3" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#teamCarousel3" data-bs-slide-to="2"></button>
+                            </div>
+                            
+                            <div class="carousel-inner rounded shadow">
+                                <div class="carousel-item active">
+                                    <img src="images/northern-league-2024/C544F148-C3AD-44BD-BE83-7D43287A655C.JPG" class="d-block w-100" alt="northern-1">
+                                    <div class="carousel-caption">
+                                        <h5>Northern League Finals</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/northern-league-2024/326B69B0-5C32-4B7B-9F3D-94EEDE33C343.JPG" class="d-block w-100" alt="northern-2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/northern-league-2024/7B6D51BD-8F96-43DC-81C2-89B97F5A8EC7.JPG" class="d-block w-100" alt="northern-3">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#teamCarousel3" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#teamCarousel3" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
-        <script src="script.js"></script>
+        
+        <div class="text-center mt-5">
+            <a href="https://docs.google.com/spreadsheets/d/1yBgCxDQ6fg_9-73EU_rIK00BfywHysQl/edit#gid=801081855" target="_blank" class="btn btn-danger btn-lg">
+                <i class="fas fa-external-link-alt me-2"></i>View 2024 CIF Individuals Bracket
+            </a>
+        </div>
     </div>
+    
+    <style>
+        /* Add to your style.css file */
+        .carousel-wrapper {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .carousel-inner {
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 6px;
+            padding: 10px 15px;
+            bottom: 20px;
+        }
+        
+        .carousel-caption h5, .carousel-caption p {
+            margin-bottom: 0;
+        }
+        
+        .carousel-indicators {
+            margin-bottom: 0.5rem;
+        }
+        
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+            background-color: rgba(0, 0, 0, 0.3);
+            border-radius: 50%;
+            padding: 12px;
+        }
+        
+        .section-title {
+            color: #333;
+            font-size: 1.75rem;
+            font-weight: 600;
+            text-align: center;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 3px;
+            background-color: rgb(170, 7, 7);
+        }
+        
+        #galleryTabs .nav-link {
+            margin: 0 5px;
+            padding: 8px 16px;
+            transition: all 0.3s ease;
+        }
+        
+        .carousel-fade .carousel-item {
+            transition: opacity 0.6s ease-in-out;
+        }
+        
+        .btn-danger {
+            background-color: rgb(170, 7, 7);
+            border-color: rgb(170, 7, 7);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-danger:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+    
+    <script>
+        // Fix navigation active state
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('#navbar .nav-link').forEach(link => {
+                link.classList.remove('active');
+                link.removeAttribute('aria-current');
+                if (link.getAttribute('href') === 'gallery.html') {
+                    link.classList.add('active');
+                    link.setAttribute('aria-current', 'page');
+                }
+            });
+        });
+    </script>
 </body>
 </html>

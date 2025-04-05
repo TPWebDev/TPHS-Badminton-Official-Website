@@ -85,6 +85,7 @@
     transform: scale(1.05);
 }
 
+
 /* Social media icons */
 .fa {
     padding: 10px;
@@ -117,6 +118,7 @@
     align-items: center;
 }
 
+
 /* Homepage backgrounds */
 .blackhome {
     background-color: black(255, 186, 21);
@@ -147,6 +149,15 @@
 
 
 /* Gallery section styling */
+#gallerypage {
+    background-color: rgb(255, 186, 21);
+    padding-bottom: 5px;
+}
+
+.col-12 {
+    padding-bottom: 20px;
+}
+
 #teamCarousel{
     width: 33.333%;
     margin-left: 33.333%;
@@ -160,6 +171,78 @@
     width: 25%;
     margin-left: 37.5%;
     text-align: center;
+}
+
+.carousel-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.carousel-inner {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 6px;
+    padding: 10px 15px;
+    bottom: 20px;
+}
+
+.carousel-caption h5, .carousel-caption p {
+    margin-bottom: 0;
+}
+
+.carousel-indicators {
+    margin-bottom: 0.5rem;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    padding: 12px;
+}
+
+.section-title {
+    color: #333;
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background-color: rgb(170, 7, 7);
+}
+
+#galleryTabs .nav-link {
+    margin: 0 5px;
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+}
+
+.carousel-fade .carousel-item {
+    transition: opacity 0.6s ease-in-out;
+}
+
+.btn-danger {
+    background-color: rgb(170, 7, 7);
+    border-color: rgb(170, 7, 7);
+    transition: all 0.3s ease;
+}
+
+.btn-danger:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -256,9 +339,10 @@ body .nav-pills .nav-link.active {
 body .nav-pills .nav-link:hover:not(.active) {
     background-color: rgba(170, 7, 7, 0.7) !important;
     color: white !important;
-    transform: translateY(-2px);
-    transition: all 0.2s ease;
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
 }
+
 
 /* Card headers with consistent colors */
 .card-header.bg-danger {
@@ -286,17 +370,6 @@ body .nav-pills .nav-link:hover:not(.active) {
 footer {
     background-color: #1a1a1a;
 }
-
-/* Gallery page styling */
-#gallerypage {
-    background-color: rgb(255, 186, 21);
-    padding-bottom: 5px;
-}
-
-.col-12 {
-    padding-bottom: 20px;
-}
-
 
 
 /* Contact page styling */
@@ -368,6 +441,7 @@ footer {
     text-align: center;
     font-size: 20px;
 }
+
 
 /* Modern styling enhancements */
 .hero-section {

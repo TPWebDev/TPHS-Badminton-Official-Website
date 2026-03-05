@@ -117,9 +117,9 @@
                         </div>
                         <div class="row g-0">
                             <div class="col-md-6">
-                                            <img src="images/steven2.jpg" alt="Badminton Tryouts Announcement"
-                                    class="img-fluid rounded-start h-100"
-                                    style="object-fit: cover; max-height: 350px; width: 100%; cursor: pointer;">
+                                <img id="mtcarmel-photo" src="images/mtcarmel.jpg" alt="Mt. Carmel Game Photo"
+                                    class="img-fluid rounded-start h-100 mtcarmel-zoom"
+                                    style="object-fit: cover; max-height: 350px; width: 100%; cursor: pointer; background: #f8f9fa;">
                             </div>
                             <div class="col-md-6">
                                 <div class="card-body d-flex flex-column justify-content-center h-100" style="padding-left: 2rem;">
@@ -131,6 +131,21 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Match image cycling -->
+                    <script>
+                        const mtcarmelPhotos = [
+                            'images/MtCarmel/mtcarmel.jpg',
+                            'images/MtCarmel/mtcarmel2.png',
+                            'images/MtCarmel/mtcarmel3.png',
+                            'images/MtCarmel/mtcarmel4.png',
+                            'images/MtCarmel/mtcarmel5.jpg'
+                        ];
+                        let mtcarmelIndex = 0;
+                        setInterval(() => {
+                            mtcarmelIndex = (mtcarmelIndex + 1) % mtcarmelPhotos.length;
+                            document.getElementById('mtcarmel-photo').src = mtcarmelPhotos[mtcarmelIndex];
+                        }, 2500);
+                    </script>
                     <!-- Badminton Tryouts News -->
                     <div class="card shadow border-0 mb-4">
                         <div class="card-header bg-light">

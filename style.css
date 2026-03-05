@@ -1,3 +1,11 @@
+/* Zoom-out effect for Mt. Carmel Game images */
+/* Ensure Mt. Carmel Game images are scaled down and fit within the container */
+.mtcarmel-zoom {
+    background: #f8f9fa;
+    object-fit: cover;
+    max-height: 350px;
+    width: 100%;
+}
 #aboutCarousel .carousel-item img {
     width: 100%;
     max-width: 480px;
